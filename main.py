@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 # Initialize FastAPI application with metadata for documentation.
 # This is the 'app' object that Uvicorn looks for.
 app = FastAPI(
-    title="NMF Topic Extractor API", # Updated title to reflect NMF
+    title="LDA Topic Extractor API", # Updated title to reflect NMF
     description="Extracts descriptive topics from .docx files using NMF and an LLM.", # Updated description
     version="1.0.0"
 )
